@@ -1,23 +1,23 @@
 Package.describe({
-  name: "gwendall:impersonate",
+  name: "teebly:impersonate",
   summary: "Impersonate users in Meteor",
   version: "0.2.2",
-  git: "https://github.com/gwendall/meteor-impersonate.git",
+  git: "https://github.com/Teebly/meteor-impersonate.git",
 });
 
 Package.onUse(function (api, where) {
 
   api.use([
-    "accounts-base@1.2.2",
-    "reactive-var@1.0.6",
-    "templating@1.1.5",
+    "accounts-base@1.6.0",
+    "reactive-var@1.0.11",
+    "templating@1.3.2",
     "gwendall:body-events@0.1.6",
     "tracker@1.2.0"
   ], "client");
 
   api.use([
-    "random@1.0.5",
-    "alanning:roles@1.2.14",
+    "random@1.2.0",
+    "alanning:roles@3.0.0",
   ]);
 
   api.addFiles([
