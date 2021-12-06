@@ -1,8 +1,8 @@
 Package.describe({
-  name: "teebly:impersonate",
+  name: "dxrx:impersonate",
   summary: "Impersonate users in Meteor",
   version: "0.2.3",
-  git: "https://github.com/Teebly/meteor-impersonate.git",
+  git: "https://github.com/dxrx/meteor-impersonate.git",
 });
 
 Package.onUse(function (api, where) {

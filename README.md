@@ -1,8 +1,3 @@
-```diff
-- NOTE: This package is not maintained anymore.
-- If you want to help, please reach out to gwendall.esnault@gmail.com
-```
-
 Meteor Impersonate
 ================
 
@@ -12,7 +7,7 @@ Installation
 ------------
 
 ``` sh
-meteor add gwendall:impersonate
+meteor add dxrx:impersonate
 ```
 
 DOM helpers
