@@ -35,16 +35,16 @@ Tracker.autorun(function() {
   Impersonate._token = null;
 });
 
-Template.body.events({
-  "click [data-impersonate]": function(e, data) {
-    var userId = $(e.currentTarget).attr("data-impersonate");
-    Impersonate.do(userId);
-  },
-  "click [data-unimpersonate]": function(e, data) {
-    Impersonate.undo();
-  }
-});
+// Template.body.events({
+//   "click [data-impersonate]": function(e, data) {
+//     var userId = $(e.currentTarget).attr("data-impersonate");
+//     Impersonate.do(userId);
+//   },
+//   "click [data-unimpersonate]": function(e, data) {
+//     Impersonate.undo();
+//   }
+// });
 
-Template.registerHelper("isImpersonating", function () {
-  return Impersonate._active.get();
-});
+// Template.registerHelper("isImpersonating", function () {
+//   return Impersonate._active.get();
+// });
